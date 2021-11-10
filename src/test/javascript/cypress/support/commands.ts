@@ -19,6 +19,8 @@
 
 // Navbar
 export const navbarSelector = '[data-cy="navbar"]';
+export const carListSelector = '[data-cy="carList"]';
+export const carListOrderButtonSelector = '[data-cy="carListOrderButton-1"]';
 export const adminMenuSelector = '[data-cy="adminMenu"]';
 export const accountMenuSelector = '[data-cy="accountMenu"]';
 export const registerItemSelector = '[data-cy="register"]';

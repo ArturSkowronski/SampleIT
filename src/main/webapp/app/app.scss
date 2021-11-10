@@ -1,8 +1,8 @@
 // Override Boostrap variables
-@import '~bootswatch/dist/superhero/variables';
+@import '~bootswatch/dist/flatly/variables';
 // Import Bootstrap source files from node_modules
 @import 'node_modules/bootstrap/scss/bootstrap';
-@import '~bootswatch/dist/superhero/bootswatch';
+@import '~bootswatch/dist/flatly/bootswatch';
 body {
   margin: 0;
 }
@@ -10,6 +10,18 @@ body {
 a {
   color: #533f03;
   font-weight: bold;
+}
+
+.navbar {
+  background-color: #93cbc9 !important;
+}
+
+.navbar a svg {
+  margin-right: 10px;
+}
+
+.navbar a:hover {
+  color: black !important;
 }
 
 * {

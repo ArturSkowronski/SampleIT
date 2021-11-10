@@ -11,13 +11,6 @@ export const RegisterPage = () => {
   const [password, setPassword] = useState('');
   const dispatch = useAppDispatch();
 
-  useEffect(
-    () => () => {
-      dispatch(reset());
-    },
-    []
-  );
-
   const handleValidSubmit = ({ username, email, firstPassword }) => {
     dispatch(handleRegister({ login: username, email, password: firstPassword, langKey: 'en' }));
   };
